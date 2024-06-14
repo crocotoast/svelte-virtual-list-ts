@@ -139,6 +139,7 @@
 	bind:offsetHeight={viewport_height}
 	on:scroll={handle_scroll}
 	style="height: {height};"
+	tabindex="-1"
 >
 	<svelte-virtual-list-contents
 		bind:this={contents}
